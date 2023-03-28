@@ -6,18 +6,19 @@
                 <div class="mb-3">
                     <typewriter class="typewriter" :type-interval="100">
   
-                        <h2 class="md:text-4xl text-2xl font-bold text-primary-100 ">I'M A
-                            <span class="typed-text">{{ typeValue }}</span>
-                            <span class="blinking-cursor">|</span>
+                        <h2 class="md:text-4xl text-xl font-bold leading-7  text-primary-100 mb-0">I'M A</h2>
+                           <h2 class="md:text-4xl text-xl font-bold leading-7  text-primary-100 mb-0"> <span class="typed-text">{{ typeValue }}</span>
+                            <span class="blinking-cursor md:text-4xl text-xl text-primary-100">|</span>
                             <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
+                           </h2>
 
-                        </h2>
+                      
                     </typewriter>
-                    <h2 class="md:text-3xl text-2xl leading-7 font-bold text-primary-100 ">HIRE ME</h2>
+                    <h2 class="md:text-4xl text-xl leading-7 font-bold text-primary-100 ">HIRE ME</h2>
                 </div>
 
                 <div class="mb-3">
-                    <p class="text-base font-bold tracking-wide text-secondary-100 ">
+                    <p class="text-base  tracking-wide font-bold  text-secondary-100 ">
                         Lets work Together,
 
                     </p>
@@ -97,8 +98,8 @@ export default {
 
 <style lang="scss" scoped>
 .blinking-cursor {
-  font-size: 3rem;
-  color: gray;
+  // font-size:1.25rem;
+  // color: gray;
   -webkit-animation: 1s blink step-end infinite;
   -moz-animation: 1s blink step-end infinite;
   -ms-animation: 1s blink step-end infinite;
@@ -111,7 +112,7 @@ export default {
     color: transparent;
   }
   50% {
-    color: #2c3e50;
+    color: #021b35;
   }
 }
 @-moz-keyframes blink {
@@ -120,7 +121,7 @@ export default {
     color: transparent;
   }
   50% {
-    color: #2c3e50;
+    color: #021b35;
   }
 }
 @-webkit-keyframes blink {
@@ -129,7 +130,7 @@ export default {
     color: transparent;
   }
   50% {
-    color: #2c3e50;
+    color: #021b35;
   }
 }
 @-ms-keyframes blink {
@@ -138,7 +139,7 @@ export default {
     color: transparent;
   }
   50% {
-    color: #2c3e50;
+    color: #021b35;
   }
 }
 @-o-keyframes blink {
@@ -147,7 +148,7 @@ export default {
     color: transparent;
   }
   50% {
-    color: #2c3e50;
+    color: #021b35;
   }
 }
 

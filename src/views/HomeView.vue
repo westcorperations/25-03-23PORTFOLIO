@@ -1,66 +1,52 @@
 <template>
-    <div class=" ">
+    <div class="max-w-full px-5 md:px-16">
 
         <!-- service section -->
-        <section class=" my-10 lg:my-20  lg:px-20 ">
+        <section class=" my-10 lg:my-20  ">
 
             <h2 class="text-2xl leading-6 md:text-4xl text-primary-100 tracking-widest font-bold  text-center">My Services
             </h2>
-            <p class="text-secondary-100 text-base font-semibold tracking-wider text-center">I am specialized in the
+            <p class="text-secondary-100 md:text-base text-sm p-2  font-semibold tracking-wider text-center">I am specialized in the
                 following skills</p>
             <div class="grid lg:grid-cols-2   ">
 
 
 
                 <div class="my-20"   data-aos="zoom-in" data-aos-delay="50">
-                    <img src="@/assets/images/img2.jpg" alt="serviceimg" class="">
+                    <img src="@/assets/images/img2.jpg" alt="serviceimg" class="w-full object-cover">
                 </div>
 
 
-                <div class="flex flex-col justify-evenly gap-y-10 items-center">
+                <div class="flex flex-col justify-evenly gap-y-10 items-center ">
 
-                    <div class="flex  lg:flex-row flex-col justify-center my-4 items-center" data-aos="fade-right" data-aos-delay="150">
+                    <div class="flex  md:flex-row flex-col justify-center my-4 items-center"
+                    
+                      v-for="skill in skills" 
+                      :key="skill.id"
+                      data-aos="fade-right"
+                      data-aos-delay="150">
                         
                         <div class=" rounded-3xl shadow shadow-primary-100 p-6 ">
-                        <img src="@/assets/images/backend.png" alt="vueimg" class="w-32 h-auto">
+                        <img :src="skill.icon" alt="vueimg" class="w-full object-cover object-center h-auto">
                         </div>
                         <div class=" text-center md:text-start px-16">
-                            <h4 class="text-secondary-100 text-2xl font-light leading-loose tracking-wide">Frontend
-                                Development</h4>
+                            <h4 class="text-primary-100 text-base font-light md:text-base md:leading-loose leading-2  tracking-wide">{{  skill.title }}
+                               </h4>
                             
-                            <p class="text-secondary-100 text-sm tracking-normal  ">
-                                Building responsive UI for websites, <br> web applications and consumption af REST APIs
+                            <p class="text-secondary-100 text-xs md:text-sm tracking-normal  ">
+                                {{ skill.desc }}
 
+                            
+                        
+                              
+                                    {{ skill.technology1 }} <br> {{ skill.technology2 }}
+                                
+                            
                             </p>
-                            <p class="text-secondary-100 text-sm tracking-normal ">
-                                <span class="text-secondary-100 underline ">Technologies:</span> </p>
-                                <p class="text-secondary-100 text-sm tracking-normal ">
-                                Vuejs,Tailwind,Bootsrap,<br>HTML,CSS,Javascript,Jquery.
-                                </p>
                            
                         </div>
                     </div>
-                    <div class="flex  lg:flex-row flex-col justify-center my-4 items-center" data-aos="fade-right" data-aos-delay="150">
-                        
-                        <div class=" rounded-3xl shadow shadow-primary-100 p-6 ">
-                        <img src="@/assets/images/ux.png" alt="vueimg" class="w-32 h-auto">
-                        </div>
-                        <div class=" text-center md:text-start px-16">
-                            <h4 class="text-secondary-100 text-2xl font-light leading-loose tracking-wide">Backend
-                                Development</h4>
-                            
-                            <p class="text-secondary-100 text-sm tracking-normal  ">
-                                converting logic into secured and maintainable <br> for building,  Web applications and  REST APIs
-
-                            </p>
-                            <p class="text-secondary-100 text-sm tracking-normal ">
-                                <span class="text-secondary-100 underline ">Technologies:</span> </p>
-                                <p class="text-secondary-100 text-sm tracking-normal ">
-                                Laravel,php,MySql.
-                                </p>
-                           
-                        </div>
-                    </div>
+                   
                    
 
                    
@@ -82,31 +68,32 @@
 
 
         <!-- projects section -->
-        <section class=" my-10 lg:my-20 lg:px-20 px-8 ">
+        <section class=" my-10 lg:my-20  ">
             <h2 class="text-2xl leading-6 md:text-4xl text-primary-100 tracking-widest font-bold  text-center">My Projects
             </h2>
-            <p class="text-secondary-100 text-base font-semibold tracking-wider text-center">Heres my recent project</p>
+            <p class="text-secondary-100  md:text-base text-sm font-semibold tracking-wider text-center">Heres my recent project</p>
             <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 my-6">
-                <div v-for="project in paginatedProjects" :key="project.id" class="flex p-6 flex-col justify-center items-center rounded shadow-lg shadow-secondary-50">
+                <div v-for="project in paginatedProjects" :key="project.id"
+                 class="flex  flex-col justify-center items-center rounded shadow-lg shadow-secondary-50">
                     <div class="border-b rounded-b-3xl border-secondary-50 ">
-                    <img :src=project.image alt="work1">
+                    <img :src="project.image" alt="work1" class="w-full object-cover object-center">
                     </div>
-                    <div class="text-center p-4">
+                    <div class="text-center text-sm md:text-base p-3">
                     <p class="">{{ project.description }}</p>
                     </div>
                     <div class="p-4">
-                    <button class="rounded bg-primary-100 text-white px-6 py-1">View</button>
+                    <button class="rounded border border-primary-100 hover:bg-primary-100 hover:text-white text-primary-100 px-6 py-1">View</button>
                     </div>
                 </div>
             </div>
 
-            <vue-paginate
+            <VuePaginate
   :page-count="Math.ceil(projects.length / perPage)"
   :click-handler="page => currentPage = page"
   :prev-text="'Prev'"
   :next-text="'Next'"
   :container-class="'pagination'"
-  :page-class="'page-item'" />
+  :page-class="'page-item'"  class="flex " />
 
 
 
@@ -143,33 +130,50 @@ export default {
         {
           id: 1,
           title: 'Xpressfixing',
-          image: '/src/assets/images/projects/xpressfixing.png',
+          image: '../src/assets/images/projects/xpressfixing.png',
           description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus dignissimos doloribus eum!'
         },
         {
           id: 2,
           title: 'Caoni',
-          image: '/src/assets/images/projects/caoni.png',
+          image: '../src/assets/images/projects/caoni.png',
           description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus dignissimos doloribus eum!'
         },
         {
           id: 3,
           title: 'Lecheene',
-          image: '/src/assets/images/projects/lecheene.png',
+          image: '../src/assets/images/projects/lecheene.png',
           description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus dignissimos doloribus eum!'
         },
         {
           id: 4,
           title: 'ServerX',
-          image: '/src/assets/images/projects/serverx.png',
+          image: '../src/assets/images/projects/serverx.png',
           description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus dignissimos doloribus eum!'
         },
         {
           id: 5,
           title: 'Bunker',
-          image: '/src/assets/images/projects/bunker.png',
+          image: './src/assets/images/projects/bunker.png',
           description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus dignissimos doloribus eum!'
         }
+      ],
+      skills: [
+       { id: 1,
+        title:'Frontend Development',
+        icon: '../src/assets/images/ux.png',
+        desc: ' Building responsive UI for websites,  web applications and consumption af REST APIs',
+        technology1: ' Vuejs,Tailwind,Bootsrap',
+        technology2: ' HTMl,CSS,Javascript,Jquery.'
+      },
+       { id: 2,
+        title:'Backend Development',
+        icon: '../src/assets/images/backend.png',
+        desc: '  converting logic into secured and maintainable code, for building, Web applications and  REST APIs',
+        technology1: 'Laravel,php,MySql.',
+        technology2: ''
+      }
+
       ]
     }
   },
