@@ -161,14 +161,14 @@ export default {
       skills: [
        { id: 1,
         title:'Frontend Development',
-        icon: '/assets/images/ux.png',
+        icon: '@/assets/images/ux.png',
         desc: ' Building responsive UI for websites,  web applications and consumption af REST APIs',
         technology1: ' Vuejs,Tailwind,Bootsrap',
         technology2: ' HTMl,CSS,Javascript,Jquery.'
       },
        { id: 2,
         title:'Backend Development',
-        icon: '/src/assets/images/backend.png',
+        icon: '@/assets/images/backend.png',
         desc: '  converting logic into secured and maintainable code, for building, Web applications and  REST APIs',
         technology1: 'Laravel,php,MySql.',
         technology2: ''
