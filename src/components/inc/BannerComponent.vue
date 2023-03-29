@@ -4,7 +4,7 @@
 
             <div class="flex flex-col justify-center ">
                 <div class="mb-3">
-                    <typewriter class="typewriter" :type-interval="100">
+                   
   
                         <h2 class="md:text-4xl text-xl font-bold leading-7  text-primary-100 mb-0">I'M A</h2>
                            <h2 class="md:text-4xl text-xl font-bold leading-7  text-primary-100 mb-0"> <span class="typed-text">{{ typeValue }}</span>
@@ -13,7 +13,7 @@
                            </h2>
 
                       
-                    </typewriter>
+                    
                     <h2 class="md:text-4xl text-xl leading-7 font-bold text-primary-100 ">HIRE ME</h2>
                 </div>
 
@@ -43,7 +43,7 @@
 
 <script>
 export default {
-  name: "typeWiriter",
+  
   data: () => {
     return {
       typeValue: "",
