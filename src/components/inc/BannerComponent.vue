@@ -1,40 +1,45 @@
 <template>
     <div>
-        <section class="grid lg:grid-cols-2  mt-4 mb-10  px-4">
+        <section class="grid lg:grid-cols-2 items-center ">
 
-            <div class="flex flex-col justify-center ">
-                <div class="mb-3">
+            <div class="md:mt-12 lg:mt-0 mb-12 lg:mb-0 ">
+                <div class="block rounded-lg shadow-lg px-6 py-12 md:px-12 lg:-mr-14"
+                style="background: hsla(0, 0%, 100%, 0.55); backdrop-filter: blur(30px);">
+                <div class="">
                    
   
-                        <h2 class="md:text-4xl text-xl font-bold leading-7  text-primary-100 mb-0">I'M A</h2>
-                           <h2 class="md:text-4xl text-xl font-bold leading-7  text-primary-100 mb-0"> <span class="typed-text">{{ typeValue }}</span>
+                        <h2 class="text-4xl md:text-5xl xl:text-6xl font-bold tracking-tight   mb-0">I'M A</h2>
+                           <h2 class="md:text-5xl text-4xl font-bold xl:text-6xl leading-7  text-primary-100 mb-0"> <span class="typed-text">{{ typeValue }}</span>
                             <span class="blinking-cursor md:text-4xl text-xl text-primary-100">|</span>
                             <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
                            </h2>
 
                       
                     
-                    <h2 class="md:text-4xl text-xl leading-7 font-bold text-primary-100 ">HIRE ME</h2>
+                    <h2 class="text-4xl md:text-5xl xl:text-6x leading-7 font-bold text-primary-100 ">HIRE ME</h2>
                 </div>
 
                 <div class="mb-3">
-                    <p class="text-base  tracking-wide font-bold  text-secondary-100 ">
+                    <p class="text-lg  md:text-3xl xl:text-4xl tracking-wide font-bold   ">
                         Lets work Together,
 
                     </p>
-                    <p class="text-base font-bold text-secondary-100  tracking-wide leading-7">
+                    <p class="text-lg md:text-3xl xl:text-4xl font-bold   tracking-wide leading-7">
                         Building Beautiful and Functional Webapps.
 
                     </p>
                 </div>
                 <div class="my-3">
-                    <button
-                        class="bg-primary-100 text-white rounded-md hover:bg-primary-50 hover:shadow-md hover:shadow-secondary-50 px-20 py-2">Resume</button>
+                  <a class="inline-block px-7  py-3 mb-2 md:mb-0 md:mr-2 bg-primary-100 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-secondary-100 hover:shadow-lg focus:bg-secondary-100 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-50 active:shadow-lg transition duration-150 ease-in-out"
+                  data-mdb-ripple="true" data-mdb-ripple-color="light" href="#!" role="button">Resume</a>
+                  <a class="inline-block px-7 py-3 mb-2 md:mb-0 md:mr-2 bg-secondary-100 text-white
+                   font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-primary-100 hover:shadow-lg focus:bg-primary-100 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-50 active:shadow-lg transition duration-150 ease-in-out"
+                  data-mdb-ripple="true" data-mdb-ripple-color="light" href="#!" role="button">Github</a>
                 </div>
-
+                </div>
             </div>
-            <div class="border-y border-l bg-secondary-50 rounded-sm  border-primary-50">
-                <img src="@/assets/images/img1.jpg" alt="banner">
+            <div class="border-y border-l  md:mb-12 lg:mb-0">
+                <img src="@/assets/images/profile3.png" alt="banner" class="w-full rounded-lg shadow-lg" loading="lazy">
             </div>
 
         </section>

@@ -1,5 +1,6 @@
 <template>
-    <div class="md:mr-0  md:px-20 px-4">
+    <div class="px-6 py-12 md:px-12 text-gray-800 text-center lg:text-left">
+        <div class="container mx-auto xl:px-32">
         <header class=" bg-white">
 
 
@@ -12,7 +13,7 @@
             <!-- banner section -->
             <BannerComponent />
         </header>
-
+    </div>
 
 
 

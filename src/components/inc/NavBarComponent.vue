@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav class="flex justify-between items-center ">
+        <nav class="flex justify-between items-center mb-4">
                 <div class="logo w-40 py-2 "><img src="@/assets/images/logos/cover.png " class="object-cover" alt="logo" />
                 </div>
                 <div class="hidden lg:flex justify-start py-2">
