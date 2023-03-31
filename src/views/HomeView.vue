@@ -84,7 +84,7 @@
               flex-col justify-center 
                                items-center rounded shadow-lg" style="background: hsla(0, 0%, 100%, 0.55); ">
               <div class="border-b rounded-b-3xl border-secondary-50 ">
-                <img :src="project.image" alt="work1" class="sm:w-[425px] md:w-[950px] lg:w-[1375px] max-w-full  object-cover object-center" >
+                <img :src="project.image" alt="work1" class="sm:w-[425px] md:w-[950px] lg:w-[1375px] max-w-full  object-cover object-center" loading="lazy" >
               </div>
               <div class="text-center text-sm md:text-base p-3">
                 <h2 class="text-primary-100 tracking-wide">{{ project.title }}</h2>
