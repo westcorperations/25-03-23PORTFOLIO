@@ -283,35 +283,35 @@ const projects = [
   {
     id: 1,
     title: 'Xpressfixing',
-    image: 'https://drive.google.com/uc?export=download&id=1QWMQtWs2yB6lI7-UrT3nCm0iQD0fIOw_',
+    image: 'https://ibb.co/MsDZ0Sq',
     description: 'An Ecormerce that sells and swap phones and accessories  using laravel and mysql',
     link: 'https://shop.xpressfixing.com.ng'
   },
   {
     id: 2,
     title: 'Caoni',
-    image: 'https://drive.google.com/uc?export=download&id=1PM1ngt20UbY_OL5onKWVGLPQZKtSy039',
+    image: 'https://ibb.co/R7js6Vq',
     description: 'A Hotel management system and online booking with point of sales and inventory system for kitchen and bar using laravel and mysql',
     link: 'https://caonihotel.com.ng'
   },
   {
     id: 3,
     title: 'Lecheene',
-    image: 'https://drive.google.com/uc?export=download&id=1g834GBc1GoS2htw05q2ioLmJJrKZF_3G',
+    image: 'https://ibb.co/PwLXHjy',
     description: 'A Fashion brand ecormerce with crm dashboard and bespock feature point of sale system in the admin made with laravel and mysql',
     link: 'https://lecheene.com'
   },
   {
     id: 4,
     title: 'ServerX',
-    image: 'https://drive.google.com/uc?export=download&id=1mYcfn5q3qhyHDqhBrP4R1ae-72Dwtzrn',
+    image: 'https://ibb.co/yBQKVDF',
     description: 'A Landing page for servax coin made using Vuejs and bootsrap clent server crashed so im using my netlify version',
     link: 'https://servax-test.netlify.app'
   },
   {
     id: 5,
     title: 'Bunker',
-    image: 'https://drive.google.com/uc?export=download&id=1kvVR1XTyv1FViYp7mDzQpXiIAaWS62gH',
+    image: 'https://ibb.co/DK6M0Jq',
     description: 'An ongoing Ecomerce project for selling groceries made with Vuejs , Tailwindcss and axios for consuming the api',
     link: 'https://hellobunker.com'
   }
