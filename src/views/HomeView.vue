@@ -16,15 +16,15 @@
 
 
 
-            <div class="my-5" data-aos="fade-left" data-aos-delay="50">
+            <div class="my-5" data-aos="zoom-in" data-aos-delay="50">
               <img src="@/assets/images/img2.jpg" alt="serviceimg" class="w-full object-cover" loading="lazy">
             </div>
 
 
             <div class="flex flex-col justify-evenly gap-y-5 items-center py-4">
 
-              <div class="flex  md:flex-row flex-col justify-center py-10 md:py-2 items-center" v-for="skill in skills"
-                :key="skill.id" data-aos="fade-right" data-aos-delay="50">
+              <div class="flex  md:flex-row flex-col justify-center pt-10 md:py-2 items-center" v-for="skill in skills"
+                :key="skill.id" data-aos="zoom-in" data-aos-delay="50">
 
                 <div class=" rounded-3xl shadow shadow-primary-100 p-6 ">
                   <img :src="skill.icon" alt="vueimg" class="w-full object-cover object-center h-auto" loading="lazy">
@@ -71,7 +71,7 @@
 
 
     <!-- projects section -->
-    <section class=" my-10 lg:my-20   px-4">
+    <section class=" mb-10 lg:mb-20   px-4">
       <div class="px-6 py-12 md:px-12 text-gray-800 text-center lg:text-left">
         <div class="container mx-auto xl:px-32">
           <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold tracking-tight leading-6  text-primary-100 text-center">My
@@ -108,7 +108,9 @@
 
 
     </section>
-    <section class=" my-10 lg:my-20   px-4">
+
+    <!-- logos display -->
+    <section class=" mb-10 lg:mb-20   px-4">
       <div class="px-6 py-12 md:px-12 text-gray-800 text-center lg:text-left">
         <div class="container mx-auto xl:px-32">
     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 items-center">
@@ -160,7 +162,7 @@
 
     <!-- about -->
 
-    <section class=" my-10 lg:my-20   px-4">
+    <section class=" mb-10 lg:mb-20   px-4">
       <div class="px-6 py-12 md:px-12 text-gray-800 text-center">
         <div class="container mx-auto xl:px-32">
           <div data-aos="zoom-in" data-aos-delay="50" class="flex  flex-col justify-center 
@@ -203,6 +205,7 @@
 
     </section>
 
+    <!-- contact me -->
     <section class="mb-32 text-gray-800 text-center">
       <div class="px-6 py-12 md:px-12 text-gray-800 text-center">
         <div class="container mx-auto xl:px-32">

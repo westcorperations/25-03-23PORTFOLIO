@@ -1,7 +1,7 @@
 <template>
     <div class="px-6 py-12 md:px-12 text-gray-800 text-center lg:text-left">
         <div class="container mx-auto xl:px-32">
-        <header class=" bg-white">
+        <header class=" ">
 
 
 
