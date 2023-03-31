@@ -283,35 +283,35 @@ const projects = [
   {
     id: 1,
     title: 'Xpressfixing',
-    image: 'https://ibb.co/MsDZ0Sq',
+    image: 'https://i.ibb.co/6mRrCw6/xpressfixing.png',
     description: 'An Ecormerce that sells and swap phones and accessories  using laravel and mysql',
     link: 'https://shop.xpressfixing.com.ng'
   },
   {
     id: 2,
     title: 'Caoni',
-    image: 'https://ibb.co/R7js6Vq',
+    image: 'https://i.ibb.co/FnHyYjF/caoni.png',
     description: 'A Hotel management system and online booking with point of sales and inventory system for kitchen and bar using laravel and mysql',
     link: 'https://caonihotel.com.ng'
   },
   {
     id: 3,
     title: 'Lecheene',
-    image: 'https://ibb.co/PwLXHjy',
+    image: 'https://i.ibb.co/0h74b2L/lecheene.png',
     description: 'A Fashion brand ecormerce with crm dashboard and bespock feature point of sale system in the admin made with laravel and mysql',
     link: 'https://lecheene.com'
   },
   {
     id: 4,
     title: 'ServerX',
-    image: 'https://ibb.co/yBQKVDF',
+    image: 'https://i.ibb.co/93rBGJH/serverx.png',
     description: 'A Landing page for servax coin made using Vuejs and bootsrap clent server crashed so im using my netlify version',
     link: 'https://servax-test.netlify.app'
   },
   {
     id: 5,
     title: 'Bunker',
-    image: 'https://ibb.co/DK6M0Jq',
+    image: 'https://i.ibb.co/bdyvc0f/bunker.png',
     description: 'An ongoing Ecomerce project for selling groceries made with Vuejs , Tailwindcss and axios for consuming the api',
     link: 'https://hellobunker.com'
   }
