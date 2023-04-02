@@ -10,7 +10,7 @@
   
                         <h2 class="text-4xl md:text-5xl xl:text-6xl font-bold tracking-tight   mb-0">I'M A</h2>
                            <h2 class="md:text-5xl text-4xl font-bold xl:text-6xl leading-7  text-primary-100 mb-0"> <span class="typed-text">{{ typeValue }}</span>
-                            <span class="blinking-cursor md:text-4xl text-xl text-primary-100">|</span>
+                            <span class="blinking-cursor md:text-5xl text-4xl xl:text-6xl text-primary-100">|</span>
                             <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
                            </h2>
 
@@ -31,10 +31,11 @@
                 </div>
                 <div class="my-3">
                   <a class="inline-block px-7  py-3 mb-2 md:mb-0 md:mr-2 bg-primary-100 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-secondary-100 hover:shadow-lg focus:bg-secondary-100 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-50 active:shadow-lg transition duration-150 ease-in-out"
-                  data-mdb-ripple="true" data-mdb-ripple-color="light" href="#!" role="button">Resume</a>
+                  data-mdb-ripple="true" data-mdb-ripple-color="light" href="./src/assets/resume/resume.pdf" download="OnwusioneEjike"
+                   target="_blank" type="application/octet-stream" role="button">Resume</a>
                   <a class="inline-block px-7 py-3 mb-2 md:mb-0 md:mr-2 bg-secondary-100 text-white
                    font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-primary-100 hover:shadow-lg focus:bg-primary-100 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-50 active:shadow-lg transition duration-150 ease-in-out"
-                  data-mdb-ripple="true" data-mdb-ripple-color="light" href="#!" role="button">Github</a>
+                  data-mdb-ripple="true" data-mdb-ripple-color="light" href="https://github.com/westcorperations" target="_blank" role="button">Github</a>
                 </div>
                 </div>
             </div>

@@ -8,6 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.7.12",
+    "@heroicons/vue": "^2.0.17",
     "aos": "^2.3.4",
     "pinia": "^2.0.32",
     "typewriter-vue": "^0.5.19",

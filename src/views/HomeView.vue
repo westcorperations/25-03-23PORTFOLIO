@@ -71,7 +71,7 @@
 
 
     <!-- projects section -->
-    <section class=" mb-10 lg:mb-20   px-4">
+    <section class=" mb-10 lg:mb-20   ">
       <div class="px-6 py-12 md:px-12 text-gray-800 text-center lg:text-left">
         <div class="container mx-auto xl:px-32">
           <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold tracking-tight leading-6  text-primary-100 text-center">My
@@ -84,7 +84,7 @@
               flex-col justify-center 
                                items-center rounded shadow-lg" style="background: hsla(0, 0%, 100%, 0.55); ">
               <div class="border-b rounded-b-3xl border-secondary-50 ">
-                <img :src="project.image" alt="work1" class="sm:w-[425px] md:w-[950px] lg:w-[1375px] max-w-full  object-cover object-center" loading="lazy" >
+                <img :src="project.image" alt="work1" class="w-full  object-cover object-center" loading="lazy" >
               </div>
               <div class="text-center text-sm md:text-base p-3">
                 <h2 class="text-primary-100 tracking-wide">{{ project.title }}</h2>
@@ -162,8 +162,8 @@
 
     <!-- about -->
 
-    <section class=" mb-10 lg:mb-20   px-4">
-      <div class="px-6 py-12 md:px-12 text-gray-800 text-center">
+    <section class=" mb-5 lg:mb-10">
+      <div class="px-6  md:px-12 text-gray-800 text-center">
         <div class="container mx-auto xl:px-32">
           <div data-aos="zoom-in" data-aos-delay="50" class="flex  flex-col justify-center 
                                items-center rounded " >
@@ -206,8 +206,8 @@
     </section>
 
     <!-- contact me -->
-    <section class="mb-32 text-gray-800 text-center">
-      <div class="px-6 py-12 md:px-12 text-gray-800 text-center">
+    <section class="mb-5 text-gray-800 text-center">
+      <div class="px-6 md:px-12 text-gray-800 text-center">
         <div class="container mx-auto xl:px-32">
           <div data-aos="zoom-in" data-aos-delay="50" class="flex  flex-col justify-center 
                                items-center rounded ">
