@@ -12,7 +12,7 @@
                            <h2 class="md:text-5xl text-4xl font-bold xl:text-6xl leading-7  text-primary-100 mb-0"> <span class="typed-text">{{ typeValue }}</span>
                             <span class="blinking-cursor md:text-5xl text-4xl xl:text-6xl text-primary-100">|</span>
                             <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
-                           </h2>
+                        </h2>
 
                       
                     
@@ -40,7 +40,7 @@
                 </div>
             </div>
             <div class="border-y border-l  md:mb-12 lg:mb-0">
-                <img src="@/assets/images/westlove.png" alt="banner" class="w-full rounded-lg shadow-lg" loading="lazy">
+                <img src="@/assets/images/westlove.png" alt="banner" class="w-full rounded-b-lg shadow-lg" loading="lazy">
             </div>
 
         </section>
