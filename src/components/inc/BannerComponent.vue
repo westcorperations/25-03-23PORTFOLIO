@@ -2,7 +2,7 @@
     <div>
         <section class="grid lg:grid-cols-2 items-center ">
 
-            <div class="md:mt-12 lg:mt-0 mb-12 lg:mb-0 ">
+            <div class="md:mt-12 lg:mt-0 lg:mb-0 ">
                 <div class="block rounded-lg shadow-lg px-6 py-12 md:px-12 lg:-mr-14"
                 style="background: hsla(0, 0%, 100%, 0.55); backdrop-filter: blur(30px);">
                 <div class="">
