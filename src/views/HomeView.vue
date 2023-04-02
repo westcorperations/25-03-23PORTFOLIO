@@ -17,7 +17,7 @@
 
 
             <div class="my-5 hidden md:block " data-aos="zoom-in" data-aos-delay="50">
-              <img src="@/assets/images/service.jpg" alt="serviceimg" class="w-full object-cover" loading="lazy">
+              <img src="@/assets/images/service.png" alt="serviceimg" class="w-full object-cover" loading="lazy">
             </div>
 
 
