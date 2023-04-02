@@ -40,7 +40,7 @@
                 </div>
             </div>
             <div class="  md:mb-12 lg:mb-0">
-                <img src="@/assets/images/westlove.png" alt="banner" class="w-full rounded-b-lg shadow-lg" loading="lazy">
+                <img src="@/assets/images/westlove.png" alt="banner" class="w-full rounded-b-2xl lg:rounded-b-lg shadow-lg" loading="lazy">
             </div>
 
         </section>
