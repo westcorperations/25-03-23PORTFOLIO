@@ -31,7 +31,7 @@
                 </div>
                 <div class="my-3">
                   <a class="inline-block px-7  py-3 mb-2 md:mb-0 md:mr-2 bg-primary-100 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-secondary-100 hover:shadow-lg focus:bg-secondary-100 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-50 active:shadow-lg transition duration-150 ease-in-out"
-                  data-mdb-ripple="true" data-mdb-ripple-color="light" href="./src/assets/resume/resume.pdf" download="OnwusioneEjike"
+                  data-mdb-ripple="true" data-mdb-ripple-color="light" href="<%= BASE_URL %>resume.pdf" download="OnwusioneEjike"
                    target="_blank" type="application/octet-stream" role="button">Resume</a>
                   <a class="inline-block px-7 py-3 mb-2 md:mb-0 md:mr-2 bg-secondary-100 text-white
                    font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-primary-100 hover:shadow-lg focus:bg-primary-100 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-50 active:shadow-lg transition duration-150 ease-in-out"
