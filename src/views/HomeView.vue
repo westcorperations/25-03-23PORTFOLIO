@@ -81,10 +81,10 @@
           </p>
           <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 my-6">
             <div v-for="project in currentPageProjects " :key="project.id" data-aos="zoom-in" data-aos-delay="50" class="flex  
-              flex-col justify-center 
-                               items-center rounded shadow-lg" style="background: hsla(0, 0%, 100%, 0.55); ">
+                flex-col justify-center 
+                                 items-center rounded shadow-lg" style="background: hsla(0, 0%, 100%, 0.55); ">
               <div class="border-b rounded-b-3xl border-secondary-50 ">
-                <img :src="project.image" alt="work1" class="w-full  object-cover object-center" loading="lazy" >
+                <img :src="project.image" alt="work1" class="w-full  object-cover object-center" loading="lazy">
               </div>
               <div class="text-center text-sm md:text-base p-3">
                 <h2 class="text-primary-100 tracking-wide">{{ project.title }}</h2>
@@ -92,8 +92,8 @@
               </div>
               <div class="p-4">
                 <button class="rounded border
-                           border-primary-100 hover:bg-primary-100
-                            hover:text-white text-primary-100 px-6 py-1">
+                             border-primary-100 hover:bg-primary-100
+                              hover:text-white text-primary-100 px-6 py-1">
                   <a :href="project.link" target="_blank"> View </a>
                 </button>
               </div>
@@ -113,50 +113,34 @@
     <section class=" mb-10 lg:mb-20   px-4">
       <div class="px-6 py-12 md:px-12 text-gray-800 text-center lg:text-left">
         <div class="container mx-auto xl:px-32">
-    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 items-center">
-      <div class="mb-12 lg:mb-0">
-        <img
-          src="@/assets/images/logos/vue.svg"
-          class="img-fluid grayscale px-6 md:px-12"
-          alt="vue - logo"
-        loading="lazy"
-        />
+          <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 items-center">
+            <div class="mb-12 lg:mb-0">
+              <img src="@/assets/images/logos/vue.svg" class="img-fluid grayscale px-6 md:px-12" alt="vue - logo"
+                loading="lazy" />
 
+            </div>
+
+            <div class="mb-12 lg:mb-0">
+              <img src="@/assets/images/logos/laravel.png" class="img-fluid grayscale px-6 md:px-12" alt="laravel - logo"
+                loading="lazy" />
+
+            </div>
+
+            <div class="mb-12 lg:mb-0">
+              <img src="@/assets/images/logos/tailwind.svg" class="img-fluid grayscale px-6 md:px-12"
+                alt="tailwind - logo" loading="lazy" />
+
+            </div>
+
+            <div class="mb-12 lg:mb-0">
+              <img src="@/assets/images/logos/bootstrap.svg" class="img-fluid grayscale px-6 md:px-12"
+                alt="bootstrap - logo" loading="lazy" />
+
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div class="mb-12 lg:mb-0">
-        <img
-          src="@/assets/images/logos/laravel.png"
-          class="img-fluid grayscale px-6 md:px-12"
-          alt="laravel - logo"
-        loading="lazy"
-        />
-
-      </div>
-
-      <div class="mb-12 lg:mb-0">
-        <img
-          src="@/assets/images/logos/tailwind.svg"
-          class="img-fluid grayscale px-6 md:px-12"
-          alt="tailwind - logo"
-        loading="lazy"
-        />
-
-      </div>
-
-      <div class="mb-12 lg:mb-0">
-        <img
-          src="@/assets/images/logos/bootstrap.svg"
-          class="img-fluid grayscale px-6 md:px-12"
-          alt="bootstrap - logo"
-        loading="lazy"
-        />
-
-      </div>
-    </div>
-</div>
-</div>
-</section>
+    </section>
 
 
 
@@ -166,7 +150,7 @@
       <div class="px-6  md:px-12 text-gray-800 text-center">
         <div class="container mx-auto xl:px-32">
           <div data-aos="zoom-in" data-aos-delay="50" class="flex  flex-col justify-center 
-                               items-center rounded " >
+                                 items-center rounded ">
             <h2
               class="text-3xl md:text-4xl xl:text-5xl font-bold tracking-tight leading-6 py-4 text-primary-100 text-center">
               About Me
@@ -210,55 +194,59 @@
       <div class="px-6 md:px-12 text-gray-800 text-center">
         <div class="container mx-auto xl:px-32">
           <div data-aos="zoom-in" data-aos-delay="50" class="flex  flex-col justify-center 
-                               items-center rounded ">
+                                 items-center rounded ">
             <h2 class="text-5xl font-bold tracking-tight leading-tight my-12">
               Let's stay in touch <br />
-              <span class="text-blue-600">Join our social media</span>
+              <span class="text-blue-600">Contact me through</span>
             </h2>
             <div class="flex flex-wrap justify-center md:space-x-2">
               <!-- Facebook -->
-              <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light"
-                class=" py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
-                style="background-color: #1877f2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="w-4 h-4 mr-2">
-                  <path fill="currentColor"
-                    d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
-                </svg>
-                Facebook
-              </button>
+              <a href="https://facebook.com/profile.php?id=100008512481849" target="_blank"> <button type="button"
+                  data-mdb-ripple="true" data-mdb-ripple-color="light"
+                  class=" py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
+                  style="background-color: #1877f2">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="w-4 h-4 mr-2">
+                    <path fill="currentColor"
+                      d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                  </svg>
+                  Facebook
+                </button>
+              </a>
 
               <!-- Twitter -->
-              <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light"
-                class=" py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
-                style="background-color: #1da1f2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4 h-4 mr-2">
-                  <path fill="currentColor"
-                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
-                </svg>
-                Twitter
-              </button>
+              <a href="tel:+2348141836706"> <button type="button" data-mdb-ripple="true"
+                  data-mdb-ripple-color="light"
+                  class=" py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
+                  style="background-color: #1da1f2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+  <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+</svg>
+                Phone
+                </button>
+              </a>
 
               <!-- Google -->
-              <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light"
-                class=" py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
-                style="background-color: #ea4335">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512" class="w-4 h-4 mr-2">
-                  <path fill="currentColor"
-                    d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
-                </svg>
-                Google
-              </button>
+              <a href="mailto: abc@example.com"><button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light"
+                  class=" py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
+                  style="background-color: #ea4335">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+</svg>
+                 Email
+                </button>
+              </a>
 
-              <!-- Instagram -->
-              <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light"
-                class=" py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
-                style="background-color: #c13584">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 mr-2">
-                  <path fill="currentColor"
-                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
-                </svg>
-                Instagram
-              </button>
+              <!-- whatsapp -->
+              <a href="https://wa.link/yb9ry1"><button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light"
+                  class=" py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
+                  style="background-color: green">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+  <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+</svg>
+                 Whatsapp
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -393,4 +381,5 @@ ul#componentContainer {
 
 .active-page:hover {
   background-color: #2988c8;
-}</style>
+}
+</style>
