@@ -39,7 +39,7 @@
                 </div>
                 </div>
             </div>
-            <div class="border-y border-l  md:mb-12 lg:mb-0">
+            <div class="  md:mb-12 lg:mb-0">
                 <img src="@/assets/images/westlove.png" alt="banner" class="w-full rounded-b-lg shadow-lg" loading="lazy">
             </div>
 
