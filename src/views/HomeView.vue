@@ -10,7 +10,7 @@
       <p class=" md:text-lg text-base p-2  font-semibold tracking-wider text-center">I am specialized in
         the
         following skills</p>
-      <div class="px-6 py-12 md:px-12 text-gray-800 text-center lg:text-left">
+      <div class=" py-12 md:px-12 text-gray-800 text-center lg:text-left">
         <div class="container mx-auto xl:px-32">
           <div class="grid lg:grid-cols-2   ">
 
