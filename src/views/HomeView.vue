@@ -17,7 +17,7 @@
 
 
             <div class="my-5" data-aos="zoom-in" data-aos-delay="50">
-              <img src="@/assets/images/img2.jpg" alt="serviceimg" class="w-full object-cover" loading="lazy">
+              <img src="@/assets/images/img1.jpg" alt="serviceimg" class="w-full object-cover" loading="lazy">
             </div>
 
 
